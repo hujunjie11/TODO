@@ -2,16 +2,17 @@ TODO
 ====
 ## zinnia 博客系统界面定制
 1. 模板系统
-	1. 前端模板系统基础知识(类似jinja2包括页面的继承、引用、python变量的使用)
-	2. 模板系统的框架(博客系统的构成要素)
+	*. 前端模板系统基础知识(类似jinja2包括页面的继承、引用、python变量的使用)
+	*. 模板系统的框架(博客系统的构成要素)
 2. jquery
-	1. 前端行为  
+	*. 前端行为  
 		*. web页面的事件、行为
+		*. 与后台交互
 3. bootstrap
-	1. 博客页面框架的构成(Header、container、footer、sidebar...)
+	*. 博客页面框架的构成(Header、container、footer、sidebar...)
 4). 特效
-	1. three.js 三维效果
-	2. about可使用impress.js 
+	*. three.js 三维效果
+	*. about可使用impress.js 
 
 
 ## scrapy爬虫系统
@@ -23,15 +24,15 @@ TODO
 	*. 存储内容(Pipelien),设计管道存储爬取的数据
 
 1. 爬虫基本结构
-	1. spider 抓取行为
-	2. pipeline 存储方式
-	3. Item 存储结构
-	4. Selector选择器
+	*. spider 抓取行为
+	*. pipeline 存储方式
+	*. Item 存储结构
+	*. Selector选择器
 2. 爬虫优化
-	1. 分布式
+	*. 分布式
 		*. Celery
 		*. RabbitMQ
-	2. 攻防策略
+	*. 攻防策略
 		*. Cookie
 		*. Delay
 		*. User Agent
