@@ -16,6 +16,7 @@ TODO
 
 
 ## scrapy爬虫系统
+![scrapy details](https://github.com/beyoung/TODO/blob/master/scrapy_spider_record.md)
 
 ### 抓取一个网站的步骤：
 	*. 新建项目(Project),新建一个爬虫项目
