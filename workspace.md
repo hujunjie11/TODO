@@ -39,13 +39,13 @@ TODO
 		*. User Agent
 		*. Proxy Pool
 
-## docker 运用程序部署
-[docker details](https://github.com/beyoung/TODO/blob/master/docker_record.md)
-#### docker awesome
-	1. docker安装部署
+>## docker 运用程序部署
+>[docker details](https://github.com/beyoung/TODO/blob/master/docker_record.md)
+>#### docker awesome
+>	1. docker安装部署
 		*. 更新docker源
 		*. 安装docker
-	2. docker基础使用
+>	2. docker基础使用
 		*. 官网pull docker images (ubuntu、redis、nginx...)
 		*. docker中运行简单web程序
 		*. 定制属于自己的Dockerfile
