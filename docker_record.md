@@ -1,2 +1,2 @@
-*docker awesome* --- make deploying your app easy
+* docker awesome * --- make deploying your app easy
 ==================================================
