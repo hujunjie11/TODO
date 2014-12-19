@@ -1,6 +1,7 @@
 TODO
 ====
 ## zinnia 博客系统界面定制
+[zinnia template system details](https://github.com/beyoung/TODO/blob/master/zinnia_blog_record.md)
 ### 模板系统
 	*. 前端模板系统基础知识(类似jinja2包括页面的继承、引用、python变量的使用)
 	*. 模板系统的框架(博客系统的构成要素)
@@ -40,6 +41,7 @@ TODO
 		*. Proxy Pool
 
 ## docker 运用程序部署
+[docker details](https://github.com/beyoung/TODO/blob/master/docker_record.md)
 	1. docker安装部署
 		*. 更新docker源
 		*. 安装docker
