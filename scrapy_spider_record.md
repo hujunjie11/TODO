@@ -27,3 +27,7 @@ scrapy details
  * cpu
  * memory
  
+## scrapy crawl test record
+ * COOKIE_ENABLE = False  default
+ * HTTPCACHE_ENABLE = 
+ * DNSCACHE = 
