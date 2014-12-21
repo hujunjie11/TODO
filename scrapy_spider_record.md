@@ -12,7 +12,6 @@ scrapy details
 * scrapyd
 * redis中心模式(单机)
 * redis分布式(celery)
-* 
 
 ## Tips:
  1. 开启gzip
@@ -44,3 +43,4 @@ scrapy details
  2. scrapy.cfg 修改配置参考[用scrapyd来提供crawler服务](http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html)
  3. 将爬虫部署到scrapyd中,运行命令scrapy deploy default -p [爬虫名]
  4. 打开浏览器,输入http://localhost:6800/可看见已经部署的爬虫
+ 5. 运行爬虫 curl http://localhost:6800/schedule.json -d project=default -d spider=[爬虫名]
