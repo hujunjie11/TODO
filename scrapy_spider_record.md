@@ -27,7 +27,20 @@ scrapy details
  * cpu
  * memory
  
-## scrapy crawl test record
+## scrapy crawl test record 
  * COOKIE_ENABLE = False  default
  * HTTPCACHE_ENABLE = 
  * DNSCACHE = 
+ * LOG_ENABLED = FALSE 
+ * CONCURRENT_REQUESTS_PER_IP = 
+
+## record
+ * 实验时,跑一个spider比较稳定，存在多个spider时,spider容易崩溃,最终只存在一个spider
+## some tips on StackOverflow:
+ * [Speed up web scraper](http://stackoverflow.com/questions/17029752/speed-up-web-scraper)
+ * 
+## scrapyd
+ 1. 运scrapyd: 在终端中执行scrapyd 启动scrapy服务器
+ 2. scrapy.cfg 修改配置参考[用scrapyd来提供crawler服务](http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html)
+ 3. 将爬虫部署到scrapyd中,运行命令scrapy deploy default -p [爬虫名]
+ 4. 打开浏览器,输入http://localhost:6800/可看见已经部署的爬虫
