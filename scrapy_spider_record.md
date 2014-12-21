@@ -15,11 +15,11 @@ scrapy details
 * 
 
 ## Tips:
- 1.开启gzip
- 2.多线程
- 3.对于定向采集可以用正则取代xpath
- 4.用pycurl代替urlib
- 5.换个带宽高的环境
+ 1. 开启gzip
+ 2. 多线程
+ 3. 对于定向采集可以用正则取代xpath
+ 4. 用pycurl代替urlib
+ 5. 换个带宽高的环境
 
 ## scrapy瓶颈
  * network 
