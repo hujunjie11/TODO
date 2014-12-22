@@ -34,10 +34,16 @@ scrapy details
  * CONCURRENT_REQUESTS_PER_IP = 
 
 ## record
- * 实验时,跑一个spider比较稳定，存在多个spider时,spider容易崩溃,最终只存在一个spider
+ * 实验时,跑一个spider比较稳定，存在多个spider时,spider容易崩溃,最终只存在一个spider;
+ * 但个spider cpu占用率有时能达到90%多;
+ 
+
+
 ## some tips on StackOverflow:
  * [Speed up web scraper](http://stackoverflow.com/questions/17029752/speed-up-web-scraper)
- * 
+ * [Scrapy Crawling Speed is Slow](http://stackoverflow.com/questions/13505194/scrapy-crawling-speed-is-slow-60-pages-min#comment18491083_13505194)
+ 
+
 ## scrapyd
  1. 运scrapyd: 在终端中执行scrapyd 启动scrapy服务器
  2. scrapy.cfg 修改配置参考[用scrapyd来提供crawler服务](http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html)
