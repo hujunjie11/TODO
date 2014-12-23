@@ -49,7 +49,7 @@ scrapy details
  2. scrapy.cfg 修改配置参考[用scrapyd来提供crawler服务](http://tchen.me/posts/2013-06-10-use-scrapyd-to-serve-scrapy-projects.html)
  3. 将爬虫部署到scrapyd中,运行命令scrapy deploy default -p [爬虫名]
  4. 打开浏览器,输入http://localhost:6800/可看见已经部署的爬虫
- 5. 运行爬虫 curl http://localhost:6800/schedule.json -d project=default -d spider=[爬虫名]
+ 5. 运行爬虫 curl http://localhost:6800/schedule.json -d project=[项目名] -d spider=[爬虫名]
 
 ## scrapy 在单机上的性能测试
   *  运行scrapy bench。 Scrapy提供了一个简单的性能测试工具。其创建了一个本地HTTP服务器，并以最大可能的速度进行爬取。 该测试性能工具目的是测试Scrapy在您的硬件上的效率，来获得一个基本的底线用于对比。 其使用了一个简单的spider，仅跟进链接，不做任何处理。注意，这是一个非常简单，仅跟进链接的spider。 任何您所编写的spider会做更多处理，从而减慢爬取的速度。 减慢的程度取决于spider做的处理以及其是如何被编写的。
