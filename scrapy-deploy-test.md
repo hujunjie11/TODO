@@ -14,5 +14,5 @@ Scrapy提供了一个简单的性能测试工具。其创建了一个本地HTTP�
 ## scrapyd 部署爬虫
 使用scrapyd部署爬虫,在爬虫settings.py中DOWNLOAD_DELAY设置较为小的时候(如0.6)的情况下,部署多个爬虫,爬虫之间或许由于存在竞争关系,
 导致最终只能存在一个爬虫运行. 若将DOWNLOAD_DELAY设置较大(如60),爬虫可以共存. 
-通过网页访问job执行情况
+通过网页访问job执行情况：
 ![scrapy job](http://7sbqj0.com1.z0.glb.clouddn.com/scrapy_job.png)
