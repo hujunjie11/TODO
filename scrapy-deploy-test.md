@@ -19,8 +19,8 @@ Scrapy提供了一个简单的性能测试工具。其创建了一个本地HTTP�
 
 ## 4 scrapy redis部署爬虫 -- 主从式部署
 采用redis库管理爬虫队列, 并以主从模式部署redis.测试了两种情况:
-*. 日本服务器作为master,阿里云服务器作为slave;
-*. 阿里云服务器作为master,日本服务器作为slave.
+* 日本服务器作为master,阿里云服务器作为slave;
+* 阿里云服务器作为master,日本服务器作为slave.
 两种情况下,爬虫抓取速度相比单机爬虫抓取速度(scrapy crawl方式)变慢了很多. *具体原因还未知* .
 
 ## 5 scrapy redis部署爬虫 -- 单机式部署
