@@ -59,5 +59,6 @@ project = 项目名
 同样采用redis数据库方式部署爬虫,不采用任何模式,运行爬虫,爬虫抓取速度和采用redis数据库并以主从式部署爬虫的情况速度一样.
 
 ## 6 scrapy redis部署爬虫 -- 中心式部署
+<p style='color:red'>还未测试.</p>
 <font color="red">**还未测试**</font>
-<font color="red">This is some text!</font>
+
