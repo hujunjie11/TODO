@@ -9,13 +9,19 @@ Scrapy提供了一个简单的性能测试工具。其创建了一个本地HTTP�
 从图中可以看出在无其他压力（理想）情况下，日本服务器上爬虫理想爬取速度为**3360page/min**
 
 ## 2 scrapy crawl spider
-在执行爬虫项目下执行
+* 在爬虫项目下执行woaidu_detail
 ~~~shell
-> scrapy crawl 爬虫名
+> scrapy crawl woaidu_detail
 ~~~
 
 最终执行结果如图:
-![scrapy crawl 执行爬虫结果](http://7sbqj0.com1.z0.glb.clouddn.com/scrapy_crawl.png)
+![scrapy crawl woaidu_detail执行结果](http://7sbqj0.com1.z0.glb.clouddn.com/scrapy_crawl.png)
+* 在爬虫项目下执行dmoz
+~~~shell
+> scrapy crawl dmoz
+~~~
+最终执行结果如图:
+![scrapy crawl woaidu_detail执行结果](http://7sbqj0.com1.z0.glb.clouddn.com/scrapy_crawl_dmoz.png)
 
 ## 3 scrapyd 部署爬虫
 scrapyd部署爬虫分为步:
