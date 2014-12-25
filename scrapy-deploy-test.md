@@ -60,4 +60,4 @@ project = 项目名
 
 ## 6 scrapy redis部署爬虫 -- 中心式部署
 <font color="red">**还未测试**</font>
-
+<font color="red">This is some text!</font>
