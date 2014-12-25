@@ -12,6 +12,25 @@ Scrapy提供了一个简单的性能测试工具。其创建了一个本地HTTP�
 在执行scrapy crawl spider 命令下
 
 ## 3 scrapyd 部署爬虫
+scrapyd部署爬虫分为步:
+1. 服务器上运行scrapy 服务器,即scrapyd命令
+~~~shell
+> scrapyd
+~~~
+2. 修改项目目录中scrapy.cfg文件,增加
+~~~python
+[deploy]
+url = http://localhost:6800
+project = 项目名
+~~~
+3. 执行命令项目部署命令
+~~~shell
+> scrapy deploy default -p 项目名
+~~~
+4. 运行爬虫 
+~~~shell
+> curl http://localhost:6800/schedule.json -d project=default -d spider=somespider
+~~~
 使用scrapyd部署爬虫,在爬虫settings.py中DOWNLOAD_DELAY设置**较小**的时候(如0.6)的情况下,部署多个爬虫,爬虫之间或许由于存在竞争关系,导致最终只能存在一个爬虫运行. 若将DOWNLOAD_DELAY设置**较大**(如60),爬虫可以共存. 
 通过网页访问job执行情况：
 
