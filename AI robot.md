@@ -4,4 +4,4 @@
 
 ##[AIML](http://lcllcl987.iteye.com/blog/473256)(Artificial Intelligence Mark-up Language)
 
-##  调用小黄鸡(http://www.cnblogs.com/huj690/archive/2013/01/24/2875114.html)
+##  [调用小黄鸡](http://www.cnblogs.com/huj690/archive/2013/01/24/2875114.html)
