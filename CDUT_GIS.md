@@ -2,7 +2,7 @@
 ## 确定专业技能
 * GIS二次开发，包括C/S,B/S(David Fish tulong )
 * 分布式架构 (David).
-* Python Django 网站(tulong tulong)
+* Python Django 网站(tulong Fish)
 * Android App 发型App(Fish David tulong)
 
 ## 构建工作室环境
