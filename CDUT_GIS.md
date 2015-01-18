@@ -1,6 +1,6 @@
 # cdut_gis 工作室构想
 ## 确定专业技能
-* GIS二次开发，包括C/S,B/S(David Fish tulong )
+* GIS二次开发，包括C/S,B/S(David Fish tulong ).
 
 ## 方向
 * 3d？
