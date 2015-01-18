@@ -1,6 +1,7 @@
 # cdut_gis 工作室构想
 ## 确定专业技能
 * GIS二次开发，包括C/S,B/S(David Fish tulong ).
+我觉得可以考虑下做手机端的呢？
 
 ## 方向
 * 3d?
